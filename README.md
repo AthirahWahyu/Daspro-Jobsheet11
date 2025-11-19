@@ -61,5 +61,7 @@ _Jawaban:_
 1.  Tidak, pengisian array tidak harus dilakukan secara berurutan mulai dari indeks ke-0. Kita bebas mengisi elemen mana pun terlebih dahulu, asalkan : 
 - Indeks yang diakses valid (tidak melebihi batas array) 
 - Tipe datanya sesuai 
+2.  null muncul karena ada elemen array yang belum diisi nilai setelah array dibuat. Java tidak otomatis mengisinya dengan string kosong atau nilai default lainnya, tetapi dengan null untuk menandai bahwa belum ada objek String yang disimpan di sana.
+
 
 
