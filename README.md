@@ -84,6 +84,15 @@ _Jawaban:_
             }
         }
     ```
+4.  1. Fungsi penonton.length adalah memberikan jumlah baris dalam array. Karena kita membuat [4][2], maka jumlah baris = 4
+    2. Fungsi penonton[0].length 
+        - penonton[0] adalah baris pertama dari array, yaitu sebuah array 1D berisi 2 kolom 
+        - penonton[0].length menunjukkan jumlah kolom pada pada baris ke-0
+    3.  Apakah penonton[0].length, penonton[1].length, penonton[2].length, dan
+penonton[3].length memiliki nilai yang sama? 
+        - ya, penonton[0].length, penonton[1].length, penonton[2].length, dan penonton[3] semuanya memiliki nilai yang sama, yaitu 2. Karena array dibuat dengan perintah : String[][] penonton = new String[4][2];. Yang artinya Java membuat 4 baris dan setiap baris langsung dibuat dengan panjang 2 kolom.
+
+
 
 
 
