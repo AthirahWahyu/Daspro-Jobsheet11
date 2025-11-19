@@ -95,6 +95,10 @@ penonton[3].length memiliki nilai yang sama?
 
 ![P1J5](.\P1J5.png)
 
+6.  Output : 
+
+![P1J6](.\P1J6.png)
+
 
 
 
