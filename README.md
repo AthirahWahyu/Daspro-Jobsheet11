@@ -99,6 +99,10 @@ penonton[3].length memiliki nilai yang sama?
 
 ![P1J6](.\P1J6.png)
 
+7.  Output : 
+
+![P1J7](.\P1J7.png)
+
 
 
 
