@@ -91,6 +91,9 @@ _Jawaban:_
     3.  Apakah penonton[0].length, penonton[1].length, penonton[2].length, dan
 penonton[3].length memiliki nilai yang sama? 
         - ya, penonton[0].length, penonton[1].length, penonton[2].length, dan penonton[3] semuanya memiliki nilai yang sama, yaitu 2. Karena array dibuat dengan perintah : String[][] penonton = new String[4][2];. Yang artinya Java membuat 4 baris dan setiap baris langsung dibuat dengan panjang 2 kolom.
+5.  Output : 
+
+![P1J5](.\P1J5.png)
 
 
 
