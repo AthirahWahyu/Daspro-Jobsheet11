@@ -24,24 +24,30 @@ public class BioskopWithScanner4 {
                     System.out.print("Masukkan nama: ");
                     nama = sc.nextLine();
 
-                    System.out.print("Masukkan baris (1-4): ");
-                    baris = sc.nextInt();
-
-                    System.out.print("Masukkan kolom (1-2): ");
-                    kolom = sc.nextInt();
-                    sc.nextLine();
-
-                    // Validasi baris & kolom 
-                    if (baris < 1 || baris > 4 || kolom < 1 || kolom > 2) {
-                        System.out.println("Posisi baris atau kolom tidak valid / tidak tersedia!");
-                    } else if (penonton[baris-1][kolom-1] != null) {
-                        System.out.println("Kursi sudah terisi!");
-                    } else {
-                        penonton[baris-1][kolom-1] = nama;
-                        System.out.println("Data penonton berhasil ditambahkan!");
+                    while (true) {
+                        
+                        System.out.print("Masukkan baris (1-4): ");
+                        baris = sc.nextInt();
+                        
+                        System.out.print("Masukkan kolom (1-2): ");
+                        kolom = sc.nextInt();
+                        sc.nextLine();
+                        
+                        // Validasi baris & kolom 
+                        if (baris < 1 || baris > 4 || kolom < 1 || kolom > 2) {
+                            System.out.println("Posisi baris atau kolom tidak valid / tidak tersedia! Masukkan ulang.");
+                            continue;
+                        } 
+                        if (penonton[baris-1][kolom-1] != null) {
+                            System.out.println("Kursi sudah terisi! Pilih kursi lain.");
+                            continue;
+                        } else {
+                            penonton[baris-1][kolom-1] = nama;
+                            System.out.println("Data penonton berhasil ditambahkan!");
+                        }
+                        break;
                     }
                     break;
-
                 case 2 : 
                 // Tampilkan daftar penonton
                 System.out.println("\n--- DAFTAR PENONTON ---");

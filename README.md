@@ -150,6 +150,10 @@ _Jawaban:_
 
 ![P2J3](.\P2J3.png)
 
+4.  Output : 
+
+![P2J4](.\P2J4.png)
+
 
 
         
