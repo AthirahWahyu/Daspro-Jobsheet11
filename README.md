@@ -19,7 +19,7 @@ ke-0? Jelaskan!
 
 4.  Tambahkan kode program sebagai berikut:
 
-![P1P2](./P1p2.PNG)
+![P1P2](./P1P2.PNG)
 
 Jelaskan fungsi dari penonton.length dan penonton[0].length!
 Apakah penonton[0].length, penonton[1].length, penonton[2].length, dan
