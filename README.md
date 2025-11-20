@@ -146,7 +146,9 @@ _Jawaban:_
 
 ![P2J2](.\P2J2.png)
 
+3.  Output : 
 
+![P2J3](.\P2J3.png)
 
 
 
