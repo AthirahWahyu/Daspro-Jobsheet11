@@ -124,7 +124,7 @@ penonton[3].length memiliki nilai yang sama?
 
 ## - Percobaan 2 : Memanfaatkan Scanner dan Perulangan untuk Input dan Output pada Array 2 Dimensi 
 
-## - Percobaan 1 : Verifikasi Hasil Percobaan 
+## - Percobaan 2 : Verifikasi Hasil Percobaan 
 
 ![Verifikasi2](.\Verifikasi2.png)
 
@@ -155,6 +155,9 @@ _Jawaban:_
 ![P2J4](.\P2J4.png)
 
 5.  Output : 
+
+![P2J5](.\P2J5.png)
+
 
 
 
