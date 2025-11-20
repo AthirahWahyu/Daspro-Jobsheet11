@@ -154,6 +154,10 @@ _Jawaban:_
 
 ![P2J4](.\P2J4.png)
 
+5.  Output : 
+
+
+
 
 
         
