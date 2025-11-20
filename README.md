@@ -158,6 +158,30 @@ _Jawaban:_
 
 ![P2J5](.\P2J5.png)
 
+## - Percobaan 3 : Array 2 Dimensi dengan Length Baris Berbeda 
+
+_Pertanyaan:_
+
+1.  Tambahkan kode program sebagai berikut
+
+![P3P1](.\P3P1.png)
+
+2.  Apa fungsi dari Arrays.toString()?
+3.  Apa nilai default untuk elemen pada array dengan tipe data int?
+4.  Tambahkan kode program berikut
+
+![P3P4](.\P3P4.png)
+
+5.  Array myNumbers memiliki length berbeda untuk setiap barisnya. Apakah panjang array dapat dimodifikasi setelah diinstansiasi?
+
+_Jawaban:_
+
+1.  Output : 
+
+![P3J1](.\P3J1.png)
+
+
+
 
 
 
