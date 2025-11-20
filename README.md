@@ -111,6 +111,15 @@ penonton[3].length memiliki nilai yang sama?
 
 ![P1J9](.\P1J9.png)
 
+10. a. foreach loop
+    - Kelebihan : Lebih ringkas, rapi, dan mudah dibaca. Tidak membutuhkan indeks sehingga dapat mengurangi risiko error indeks. Cocok untuk membaca semua elemen array atau koleksi.
+    - Kekurangan : Tidak bisa akses indeks, jadi kurang fleksibel. Tidak cocok untuk memodifikasi array/koleksi saat iterasi. Tidak bisa mengatur iterasi (misalnya melompat, mundur, atau lagkah khusus).
+
+    b. for loop 
+    - Kelebihan : Fleksibel, bisa mengakses indeks, bisa iterasi maju atau mundur, cocok untuk perulangan dengan kondisi tertentu, dan dapat mengolah beberapa array sekaligus.
+    - Kekurangan : Lebih rawan error, kode lebih panjang, tidak secara otomatis memproses semua elemen, dan lebih sulit dibaca untuk pemula.
+        
+
 
 
 
