@@ -6,7 +6,7 @@
 
 ## - Percobaan 1 : Verifikasi Hasil Percobaan 
 
-![Verifikasi1](.\Verifikasi1.png)
+![Verifikasi1](./Verifikasi1.png)
 
 _Pertanyaan:_
 
@@ -15,11 +15,11 @@ ke-0? Jelaskan!
 2.  Mengapa terdapat null pada daftar nama penonton?
 3.  Lengkapi daftar penonton pada langkah ke-4 sebagai berikut
 
-![P1P1](.\P1P1.png)
+![P1P1](./P1P1.png)
 
 4.  Tambahkan kode program sebagai berikut:
 
-![P1P2](.\P1p2.PNG)
+![P1P2](./P1p2.PNG)
 
 Jelaskan fungsi dari penonton.length dan penonton[0].length!
 Apakah penonton[0].length, penonton[1].length, penonton[2].length, dan
@@ -28,27 +28,27 @@ penonton[3].length memiliki nilai yang sama? Mengapa?
 5.  Modifikasi kode program pada pertanyaan 4 untuk menampilkan panjang setiap baris
 pada array menggunakan for loop. Compile, run, lalu amati hasilnya.
 
-![P1P5](.\P1P5.png)
+![P1P5](./P1P5.png)
 
 6.  Modifikasi kode program pada pertanyaan 5 untuk menampilkan panjang setiap baris
 pada array menggunakan foreach loop. Compile, run, lalu amati hasilnya.
 
-![P1P6](.\P1P6.png)
+![P1P6](./P1P6.png)
 
 7.  Tambahkan kode program untuk menampilkan nama penonton pada baris ke-3
 menggunakan for loop. Compile, run, lalu amati hasilnya.
 
-![P1P7](.\P1P7.png)
+![P1P7](./P1P7.png)
 
 8.  Modifikasi kode program pada pertanyaan 7 menjadi perulangan dengan foreach
 loop. Compile, run, lalu lakukan amati hasilnya.
 
-![P1P8](.\P1P8.png)
+![P1P8](./P1P8.png)
 
 9.  Modifikasi kembali kode program pada langkah 11 untuk menampilkan nama
 penonton untuk setiap baris. Compile dan run program kemudian amati hasilnya.
 
-![P1P9](.\P1P9.png)
+![P1P9](./P1P9.png)
 
 10. Menurut Anda, apa kekurangan dan kelebihan foreach loop dibandingkan dengan for
 loop?
@@ -93,23 +93,23 @@ penonton[3].length memiliki nilai yang sama?
         - ya, penonton[0].length, penonton[1].length, penonton[2].length, dan penonton[3] semuanya memiliki nilai yang sama, yaitu 2. Karena array dibuat dengan perintah : String[][] penonton = new String[4][2];. Yang artinya Java membuat 4 baris dan setiap baris langsung dibuat dengan panjang 2 kolom.
 5.  Output : 
 
-![P1J5](.\P1J5.png)
+![P1J5](./P1J5.png)
 
 6.  Output : 
 
-![P1J6](.\P1J6.png)
+![P1J6](./P1J6.png)
 
 7.  Output : 
 
-![P1J7](.\P1J7.png)
+![P1J7](./P1J7.png)
 
 8.  Output : 
 
-![P1J8](.\P1J8.png)
+![P1J8](./P1J8.png)
 
 9.  Output : 
 
-![P1J9](.\P1J9.png)
+![P1J9](./P1J9.png)
 
 10. a. foreach loop
     - Kelebihan : Lebih ringkas, rapi, dan mudah dibaca. Tidak membutuhkan indeks sehingga dapat mengurangi risiko error indeks. Cocok untuk membaca semua elemen array atau koleksi.
@@ -126,7 +126,7 @@ penonton[3].length memiliki nilai yang sama?
 
 ## - Percobaan 2 : Verifikasi Hasil Percobaan 
 
-![Verifikasi2](.\Verifikasi2.png)
+![Verifikasi2](./Verifikasi2.png)
 
 _Pertanyaan:_
 
@@ -144,19 +144,19 @@ _Jawaban:_
 1.  Tidak, pengisian elemen array dari scanner tidak harus dilakukan secara berurutan mulai dari indeks ke-0. Urutan bebas, selama indeks benar. Array penonton seperti kursi bioskop. Pengunjung tidak harus duduk mulai dari kursi pertama, mereka bisa pilih kursi mana saja yang masih kosong
 2.  Output : 
 
-![P2J2](.\P2J2.png)
+![P2J2](./P2J2.png)
 
 3.  Output : 
 
-![P2J3](.\P2J3.png)
+![P2J3](./P2J3.png)
 
 4.  Output : 
 
-![P2J4](.\P2J4.png)
+![P2J4](./P2J4.png)
 
 5.  Output : 
 
-![P2J5](.\P2J5.png)
+![P2J5](./P2J5.png)
 
 ## - Percobaan 3 : Array 2 Dimensi dengan Length Baris Berbeda 
 
@@ -164,13 +164,13 @@ _Pertanyaan:_
 
 1.  Tambahkan kode program sebagai berikut
 
-![P3P1](.\P3P1.png)
+![P3P1](./P3P1.png)
 
 2.  Apa fungsi dari Arrays.toString()?
 3.  Apa nilai default untuk elemen pada array dengan tipe data int?
 4.  Tambahkan kode program berikut
 
-![P3P4](.\P3P4.png)
+![P3P4](./P3P4.png)
 
 5.  Array myNumbers memiliki length berbeda untuk setiap barisnya. Apakah panjang array dapat dimodifikasi setelah diinstansiasi?
 
@@ -178,13 +178,13 @@ _Jawaban:_
 
 1.  Output : 
 
-![P3J1](.\P3J1.png)
+![P3J1](./P3J1.png)
 
 2.  Arrays.toString() digunakan untuk mengubah isi array 1 dimensi dengan format [a, b, c] menjadi bentuk String yang rapi dan mudah dibaca
 3.  0
 4.  Output : 
 
-![P3J4](.\P3J4.png)
+![P3J4](./P3J4.png)
 
 5.  Tidak, panjang array di Java tidak bisa diubah setelah array tersebut diinstansiasi
 
@@ -192,7 +192,7 @@ _Jawaban:_
 
 ## - Percobaan 4 : Verifikasi Hasil Percobaan 
 
-![Verifikasi4](.\Verifikasi4.png)
+![Verifikasi4](./Verifikasi4.png)
 
 _Pertanyaan:_
 
@@ -202,7 +202,7 @@ _Jawaban:_
 
 1.  Output : 
 
-![P4J1](.\P4J1.png)
+![P4J1](./P4J1.png)
 
 # TUGAS 
 
@@ -274,13 +274,13 @@ _Jawaban:_
 
     Output : 
 
-![Survei1](.\Survei1.png)
+![Survei1](./Survei1.png)
 
-![Survei2](.\Survei2.png)
+![Survei2](./Survei2.png)
 
-![Survei3](.\Survei3.png)
+![Survei3](./Survei3.png)
 
-![Survei4](.\Survei4.png)
+![Survei4](./Survei4.png)
 
 
 
