@@ -2,35 +2,60 @@ import java.util.Scanner;
 
 public class SIAKAD4 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
+        
+        int i,j;
 
-        int[][] nilai = new int[4][3];
+        // Input jumlah siswa & matkul
+        System.out.print("Masukkan jumlah mahasiswa  : ");
+        int jumlahMahasiswa = input.nextInt();
 
-        // Mengisi elemen pada array nilai
-        for (int i = 0; i < nilai.length; i++) {
-            System.out.println("Input nilai mahasiswa ke-" + (i + 1));
-            double totalPerSiswa = 0;
-            
-            for (int j = 0; j < nilai[i].length; j++) {
+        System.out.print("Masukkan jumlah mata kuliah: ");
+        int jumlahMatkul = input.nextInt();
+        System.out.println();
+
+        // Membuat array dinamis 
+        int[][] nilai = new int[jumlahMahasiswa][jumlahMatkul];
+
+        // Input nilai mahasiswa 
+        for (i = 0; i < jumlahMahasiswa; i++) {
+            System.out.println("Input nilai mahasiswa ke-" + (i+1));
+
+            for (j = 0; j < jumlahMatkul; j++) {
                 System.out.print("Nilai mata kuliah " + (j+1) + ": ");
-                nilai[i][j] = sc.nextInt();
+                nilai[i][j] = input.nextInt();
+            }
+        }
+
+        // Hitung rata-rata setiap mahasiswa
+        System.out.println("-----------------------------------");
+        System.out.println("Rata-rata Nilai setiap Mahasiswa:");
+
+        for (i = 0; i < jumlahMahasiswa; i++) {
+            double totalPerSiswa = 0;
+
+            for (j = 0; j < jumlahMatkul; j++) {
                 totalPerSiswa += nilai[i][j];
             }
-            System.out.println("Nilai rata-rata: " + totalPerSiswa/3);
+            double rataPerSiswa = totalPerSiswa / jumlahMatkul;
+            System.out.println("Rata-rata mahasiswa ke-" + (i+1) + ": " + rataPerSiswa);
         }
 
-        // Menghitung nilai rata-rata setiap mata kuliah 
-        System.out.println("\n===================================");
-        System.out.println("Rata-rata Nilai setiap Mata Kuliah:");
-
-        for (int j = 0; j < 3; j++) {
+        // Hitung rata-rata per mata kuliah 
+        System.out.println("-----------------------------------");
+        System.out.println("Rata-rata nilai setiap mata kuliah:");
+        for (j = 0; j < jumlahMatkul; j++) {
             double totalPerMatkul = 0;
-
-            for (int i = 0; i < 4; i++) {
+            
+            for (i = 0; i < jumlahMahasiswa; i++) {
                 totalPerMatkul += nilai[i][j];
             }
-            System.out.println("Mata kuliah " + (j+1) + ": " + totalPerMatkul/4);
+            
+            System.out.println("Mata kuliah " + (j + 1) + ": " + (totalPerMatkul/jumlahMahasiswa));
         }
-        sc.close();
+        input.close();
     }
 }
+
+
+

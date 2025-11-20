@@ -188,6 +188,22 @@ _Jawaban:_
 
 5.  Tidak, panjang array di Java tidak bisa diubah setelah array tersebut diinstansiasi
 
+## - Percobaan 4 : Studi Kasus SIAKAD 
+
+## - Percobaan 4 : Verifikasi Hasil Percobaan 
+
+![Verifikasi4](.\Verifikasi4.png)
+
+_Pertanyaan:_
+
+1.  Bagaimana jika terdapat perubahan jumlah siswa dan jumlah mata kuliah? Modifikasi kode program SIAKAD untuk mengakomodasi jumlah siswa dan jumlah mata kuliah yang dinamis.
+
+_Jawaban:_
+
+1.  Output : 
+
+![P4J1](.\P4J1.png)
+
 
 
 
