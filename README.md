@@ -120,6 +120,7 @@ penonton[3].length memiliki nilai yang sama?
     - Kekurangan : Lebih rawan error, kode lebih panjang, tidak secara otomatis memproses semua elemen, dan lebih sulit dibaca untuk pemula.
 11. Indeks baris maksimal untuk array penonton adalah 3. Karena jumlah baris 4 dan indeks baris mulai dari 0. Maka indeks baris maksimal = 4 - 1 = 3.
 12. Indeks kolom maksimal untuk array penonton adalah 1. Karena jumlah kolom 2 dan indeks kolom mulai dari 0. Maka indeks kolom maksimal = 2 - 1 = 1.
+13. Fungsi String.join() adalah digunakan untuk menggabungkan elemen-elemen array atau koleksi menjadi satu kalimat/string dan menambahkan pemisah otomatis di antara elemen (misalnya koma, spasi, tanda strip, dll)
 
         
 
