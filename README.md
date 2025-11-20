@@ -186,6 +186,7 @@ _Jawaban:_
 
 ![P3J4](.\P3J4.png)
 
+5.  Tidak, panjang array di Java tidak bisa diubah setelah array tersebut diinstansiasi
 
 
 
