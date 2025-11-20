@@ -182,6 +182,9 @@ _Jawaban:_
 
 2.  Arrays.toString() digunakan untuk mengubah isi array 1 dimensi dengan format [a, b, c] menjadi bentuk String yang rapi dan mudah dibaca
 3.  0
+4.  Output : 
+
+![P3J4](.\P3J4.png)
 
 
 
