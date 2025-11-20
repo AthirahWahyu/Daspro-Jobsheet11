@@ -118,6 +118,8 @@ penonton[3].length memiliki nilai yang sama?
     b. for loop 
     - Kelebihan : Fleksibel, bisa mengakses indeks, bisa iterasi maju atau mundur, cocok untuk perulangan dengan kondisi tertentu, dan dapat mengolah beberapa array sekaligus.
     - Kekurangan : Lebih rawan error, kode lebih panjang, tidak secara otomatis memproses semua elemen, dan lebih sulit dibaca untuk pemula.
+11. Indeks baris maksimal untuk array penonton adalah 3. Karena jumlah baris 4 dan indeks baris mulai dari 0. Maka indeks baris maksimal = 4 - 1 = 3.
+
         
 
 
