@@ -142,6 +142,9 @@ _Pertanyaan:_
 _Jawaban:_
 
 1.  Tidak, pengisian elemen array dari scanner tidak harus dilakukan secara berurutan mulai dari indeks ke-0. Urutan bebas, selama indeks benar. Array penonton seperti kursi bioskop. Pengunjung tidak harus duduk mulai dari kursi pertama, mereka bisa pilih kursi mana saja yang masih kosong
+2.  Output : 
+
+![P2J2](.\P2J2.png)
 
 
 
